@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
 <head>
     <title>ShopNx - AngularJS shopping cart web application with NodeJS, MongoDB</title>
     <!-- Meta -->
@@ -11,7 +14,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="favicon.ico">
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet'
+        type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <!-- Global CSS -->
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
@@ -31,13 +35,13 @@
 
     <!---//Facebook button code-->
     <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
+    <script>(function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
 
     <!-- ******HEADER****** -->
     <header id="header" class="header">
@@ -46,7 +50,8 @@
                 <a class="scrollto" href="#promo">
                     <span class="logo-title">ShopNx</span>
                 </a>
-            </h1><!--//logo-->
+            </h1>
+            <!--//logo-->
             <nav id="main-nav" class="main-nav navbar-right" role="navigation">
                 <div class="navbar-header">
                     <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
@@ -54,8 +59,10 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
-                    </button><!--//nav-toggle-->
-                </div><!--//navbar-header-->
+                    </button>
+                    <!--//nav-toggle-->
+                </div>
+                <!--//navbar-header-->
                 <div class="navbar-collapse collapse" id="navbar-collapse">
                     <ul class="nav navbar-nav">
                         <li class="active nav-item sr-only"><a class="scrollto" href="#promo">Home</a></li>
@@ -64,27 +71,37 @@
                         <li class="nav-item"><a class="scrollto" href="#docs">Docs</a></li>
                         <li class="nav-item"><a class="scrollto" href="#license">License</a></li>
                         <li class="nav-item last"><a class="scrollto" href="#contact">Contact</a></li>
-                    </ul><!--//nav-->
-                </div><!--//navabr-collapse-->
-            </nav><!--//main-nav-->
+                    </ul>
+                    <!--//nav-->
+                </div>
+                <!--//navabr-collapse-->
+            </nav>
+            <!--//main-nav-->
         </div>
-    </header><!--//header-->
+    </header>
+    <!--//header-->
 
     <!-- ******PROMO****** -->
     <section id="promo" class="promo section offset-header">
         <div class="container text-center">
             <h2 class="title">Shop<span class="highlight">Nx</span></h2>
-            <p class="intro">Ready to use shopping cart application created using AngularJS, NodeJS, MongoDB (MEAN Stack)</p>
+            <p class="intro">Ready to use shopping cart application created using AngularJS, NodeJS, MongoDB (MEAN
+                Stack)</p>
             <div class="btns">
                 <a class="btn btn-cta-secondary" href="http://mshop.codenx.com/" target="_blank">Demo</a>
-                <a class="btn btn-cta-primary" href="https://codecanyon.net/item/material-shop-material-designed-shopping-cart-using-angularjs/17904231" target="_blank">Download</a>
+                <a class="btn btn-cta-primary"
+                    href="https://codecanyon.net/item/material-shop-material-designed-shopping-cart-using-angularjs/17904231"
+                    target="_blank">Download</a>
             </div>
             <ul class="meta list-inline">
-                <li><a href="https://codecanyon.net/item/material-shop-material-designed-shopping-cart-using-angularjs/17904231/comments" target="_blank">Discussions</a></li>
+                <li><a href="https://codecanyon.net/item/material-shop-material-designed-shopping-cart-using-angularjs/17904231/comments"
+                        target="_blank">Discussions</a></li>
                 <li><a href="http://mshop.codenx.com/doc/pre" target="_blank">Full Documentation</a></li>
                 <li>Created by: Ipsita Sahoo at <a href="http://codenx.com/" target="_blank">CodeNx</a></li>
-            </ul><!--//meta-->
-        </div><!--//container-->
+            </ul>
+            <!--//meta-->
+        </div>
+        <!--//container-->
         <div class="social-media">
             <div class="social-media-inner container text-center">
                 <ul class="list-inline">
@@ -96,8 +113,10 @@
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
                     </li>//twitter-tweet-->
                     <li class="facebook-like">
-                         <div class="fb-like" data-href="http://codenx.com/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
-                    </li><!--//facebook-like-->
+                        <div class="fb-like" data-href="http://codenx.com/" data-layout="button_count"
+                            data-action="like" data-show-faces="false" data-share="true"></div>
+                    </li>
+                    <!--//facebook-like-->
                     <!--// Generate github buttons: https://github.com/mdo/github-buttons -->
                     <!--//<li class="github-star"><iframe src="http://ghbtns.com/github-btn.html?user=mdo&repo=github-buttons&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe></li>
                     <li class="github-fork"><iframe src="http://ghbtns.com/github-btn.html?user=mdo&repo=github-buttons&type=fork" allowtransparency="true" frameborder="0" scrolling="0" width="53" height="20"></iframe></li>
@@ -108,48 +127,55 @@
                 </ul>
             </div>
         </div>
-    </section><!--//promo-->
+    </section>
+    <!--//promo-->
 
     <!-- ******ABOUT****** -->
     <section id="about" class="about section">
         <div class="container">
             <h2 class="title text-center">What is ShopNx?</h2>
-            <p class="intro text-center">Shopnx is a single page shopping web application powered by the top of the stack trending javascript technology. It has got many essential features required to create and configure your online store and start selling instantly. Easy to install, joyfull to use for both the admin and the user. We make it fun to create and use the store.
+            <p class="intro text-center">Shopnx is a single page shopping web application powered by the top of the
+                stack trending javascript technology. It has got many essential features required to create and
+                configure your online store and start selling instantly. Easy to install, joyfull to use for both the
+                admin and the user. We make it fun to create and use the store.
             </p>
             <div class="text-center">
-              <!-- <img src="assets/images/shopnx-banner.png" alt="" /> -->
-              <div class="banner-img"></div>
+                <!-- <img src="assets/images/shopnx-banner.png" alt="" /> -->
+                <div class="banner-img"></div>
             </div>
-              <p>
+            <p>
                 <h3 class="text-center">Getting Started</h3>
                 <!-- 16:9 aspect ratio -->
                 <div class="embed-responsive embed-responsive-16by9 text-center">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JujwU3yxAj8"></iframe>
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JujwU3yxAj8"></iframe>
                 </div>
-              </p>
+            </p>
 
-              <p>
-              <h3 class="text-center">Technology used</h3>
-              <ul class="text-center">
-                <li><b>AngularJS</b> The front end javascript framework</li>
-                <li><b>NodeJS</b> The back end javascript server framework</li>
-                <li><b>MongoDB</b> The NoSQL document-oriented database </li>
-              </ul>
-              </p>
+            <p>
+                <h3 class="text-center">Technology used</h3>
+                <ul class="text-center">
+                    <li><b>AngularJS</b> The front end javascript framework</li>
+                    <li><b>NodeJS</b> The back end javascript server framework</li>
+                    <li><b>MongoDB</b> The NoSQL document-oriented database </li>
+                </ul>
+            </p>
 
-              <blockquote class="text-center">
-                Unlike convensional websites where everytime we wait for the page to load, in shopnx the whole website is loaded first and each partial pages are served to the user on request basis with the help of latest javascript technology. <br/><br/>
-                We are constantly improving security of this web application. Please check back before puting this into a live website.
-              </blockquote>
-              <p>
-              <h3 class="text-center">Advantages:</h3>
-              <ul class="text-center">
-                <li>Less server load</li>
-                <li>High performance</li>
-                <li>Great user experience</li>
-              </ul>
-                </p>
-<br/>
+            <blockquote class="text-center">
+                Unlike convensional websites where everytime we wait for the page to load, in shopnx the whole website
+                is loaded first and each partial pages are served to the user on request basis with the help of latest
+                javascript technology. <br /><br />
+                We are constantly improving security of this web application. Please check back before puting this into
+                a live website.
+            </blockquote>
+            <p>
+                <h3 class="text-center">Advantages:</h3>
+                <ul class="text-center">
+                    <li>Less server load</li>
+                    <li>High performance</li>
+                    <li>Great user experience</li>
+                </ul>
+            </p>
+            <br />
             <div class="row">
                 <div class="item col-md-4 col-sm-6 col-xs-12">
                     <div class="icon-holder">
@@ -157,18 +183,25 @@
                     </div>
                     <div class="content">
                         <h3 class="sub-title">Start in minutes</h3>
-                        <p>The easy to install and use concept saves a huge amount of time which generaly wasted setting things up. Simply install, add products categories and start selling online in minutes.</p>
-                    </div><!--//content-->
-                </div><!--//item-->
+                        <p>The easy to install and use concept saves a huge amount of time which generaly wasted setting
+                            things up. Simply install, add products categories and start selling online in minutes.</p>
+                    </div>
+                    <!--//content-->
+                </div>
+                <!--//item-->
                 <div class="item col-md-4 col-sm-6 col-xs-12">
                     <div class="icon-holder">
                         <i class="fa fa-filter fa-5x"></i>
                     </div>
                     <div class="content">
                         <h3 class="sub-title">Filters</h3>
-                        <p>This script is already laced with much advanced search, filter, category navigation, seo friendly urls, payment, shipping options. No need to search for additional modules to achieve the above</p>
-                    </div><!--//content-->
-                </div><!--//item-->
+                        <p>This script is already laced with much advanced search, filter, category navigation, seo
+                            friendly urls, payment, shipping options. No need to search for additional modules to
+                            achieve the above</p>
+                    </div>
+                    <!--//content-->
+                </div>
+                <!--//item-->
 
                 <div class="item col-md-4 col-sm-6 col-xs-12">
                     <div class="icon-holder">
@@ -176,11 +209,14 @@
                     </div>
                     <div class="content">
                         <h3 class="sub-title">UX-centred</h3>
-                        <p>Better user interactivity and experience was the main idea behind developing this application. Hence its primary focus remains the same. Always interactive
-                    </div><!--//content-->
-                </div><!--//item-->
-              </div>
-              <div class="row">
+                        <p>Better user interactivity and experience was the main idea behind developing this
+                            application. Hence its primary focus remains the same. Always interactive
+                    </div>
+                    <!--//content-->
+                </div>
+                <!--//item-->
+            </div>
+            <div class="row">
                 <!-- <div class="clearfix visible-md"></div> -->
                 <div class="item col-md-4 col-sm-6 col-xs-12">
                     <div class="icon-holder">
@@ -188,9 +224,12 @@
                     </div>
                     <div class="content">
                         <h3 class="sub-title">Single Page</h3>
-                        <p>The whole shopping website in a single page. Only partials are served when loaded. </p></p>
-                    </div><!--//content-->
-                </div><!--//item-->
+                        <p>The whole shopping website in a single page. Only partials are served when loaded. </p>
+                        </p>
+                    </div>
+                    <!--//content-->
+                </div>
+                <!--//item-->
 
                 <div class="item col-md-4 col-sm-6 col-xs-12">
                     <div class="icon-holder">
@@ -198,9 +237,13 @@
                     </div>
                     <div class="content">
                         <h3 class="sub-title">Realtime product updates</h3>
-                        <p>The changes to any product updates to client in realtime using the socketio technology. Hence the admin need not be worry about any changes that are not being pushed to the end client</p>
-                    </div><!--//content-->
-                </div><!--//item-->
+                        <p>The changes to any product updates to client in realtime using the socketio technology. Hence
+                            the admin need not be worry about any changes that are not being pushed to the end client
+                        </p>
+                    </div>
+                    <!--//content-->
+                </div>
+                <!--//item-->
 
                 <div class="item col-md-4 col-sm-6 col-xs-12">
                     <div class="icon-holder">
@@ -208,61 +251,83 @@
                     </div>
                     <div class="content">
                         <h3 class="sub-title">Intelligent Shipping Options</h3>
-                        <p>The smart shipping selector selects the best shipping option for a customer based on his country automatically. The store administrator only need to choose the shipping charge, country and weight.</p>
-                    </div><!--//content-->
-                </div><!--//item-->
-              </div>
-                <div class="row">
+                        <p>The smart shipping selector selects the best shipping option for a customer based on his
+                            country automatically. The store administrator only need to choose the shipping charge,
+                            country and weight.</p>
+                    </div>
+                    <!--//content-->
+                </div>
+                <!--//item-->
+            </div>
+            <div class="row">
                 <div class="item col-md-4 col-sm-6 col-xs-12">
                     <div class="icon-holder">
                         <i class="fa fa-car"></i>
                     </div>
                     <div class="content">
                         <h3 class="sub-title">Quick Checkout</h3>
-                        <p>The single page checkout option makes the checkout process delighting reducing customer drop offs</p>
-                    </div><!--//content-->
-                </div><!--//item-->
+                        <p>The single page checkout option makes the checkout process delighting reducing customer drop
+                            offs</p>
+                    </div>
+                    <!--//content-->
+                </div>
+                <!--//item-->
                 <div class="item col-md-4 col-sm-6 col-xs-12">
                     <div class="icon-holder">
                         <i class="fa fa-paypal"></i>
                     </div>
                     <div class="content">
                         <h3 class="sub-title">Integrated Paymennt Options</h3>
-                        <p>Currectly it supports PayPal, Stripe, COD. The number will increase in future based on the demands by the customers</p>
-                    </div><!--//content-->
-                </div><!--//item-->
+                        <p>Currectly it supports PayPal, Stripe, COD. The number will increase in future based on the
+                            demands by the customers</p>
+                    </div>
+                    <!--//content-->
+                </div>
+                <!--//item-->
                 <div class="item col-md-4 col-sm-6 col-xs-12">
                     <div class="icon-holder">
                         <i class="fa fa-cubes"></i>
                     </div>
                     <div class="content">
                         <h3 class="sub-title">Product Administration</h3>
-                        <p>The product management module is designed with ergonomics in mind which allows product administrators to spend less time managing a product. </p>
-                    </div><!--//content-->
-                </div><!--//item-->
-              </div>
-              <div class="row">
+                        <p>The product management module is designed with ergonomics in mind which allows product
+                            administrators to spend less time managing a product. </p>
+                    </div>
+                    <!--//content-->
+                </div>
+                <!--//item-->
+            </div>
+            <div class="row">
                 <div class="item col-md-4 col-sm-6 col-xs-12">
                     <div class="icon-holder">
                         <i class="fa fa-cog"></i>
                     </div>
                     <div class="content">
                         <h3 class="sub-title">Advanced Options</h3>
-                        <p>There are provisions to manage product categories, features, brands, coupons which is available globally. </p>
-                    </div><!--//content-->
-                </div><!--//item-->
+                        <p>There are provisions to manage product categories, features, brands, coupons which is
+                            available globally. </p>
+                    </div>
+                    <!--//content-->
+                </div>
+                <!--//item-->
                 <div class="item col-md-4 col-sm-6 col-xs-12">
                     <div class="icon-holder">
                         <i class="fa fa-code"></i>
                     </div>
                     <div class="content">
                         <h3 class="sub-title">High Scalability</h3>
-                        <p>Ranging from a start up organization to already established e-commerce firm, everyone has a space for this application</p>
-                    </div><!--//content-->
-                </div><!--//item-->
-            </div><!--//row-->
-        </div><!--//container-->
-    </section><!--//about-->
+                        <p>Ranging from a start up organization to already established e-commerce firm, everyone has a
+                            space for this application</p>
+                    </div>
+                    <!--//content-->
+                </div>
+                <!--//item-->
+            </div>
+            <!--//row-->
+        </div>
+        <!--//container-->
+    </section>
+    <!--//about-->
 
     <!-- ******FEATURES****** -->
     <section id="features" class="features section">
@@ -277,132 +342,176 @@
                 <li><i class="fa fa-check"></i> Fast and secure</li>
                 <li><i class="fa fa-check"></i> Compatible with all modern browsers</li>
                 <li><i class="fa fa-check"></i> Completely ajax based web app</li>
-                <li><i class="fa fa-check"></i> Advanced features like search, filter, category navigation, seo friendly urls</li>
+                <li><i class="fa fa-check"></i> Advanced features like search, filter, category navigation, seo friendly
+                    urls</li>
                 <li><i class="fa fa-check"></i> Effectively filter products based on any feature</li>
                 <li><i class="fa fa-check"></i> Advance order management and history</li>
                 <li><i class="fa fa-check"></i> Discounts and coupons</li>
                 <li><i class="fa fa-check"></i> Online payment options (Paypal, Stripe, COD)</li>
                 <li><i class="fa fa-check"></i> Option to add multiple product variants</li>
                 <li><i class="fa fa-check"></i> Optimized code for a live website</li>
-                <li><i class="fa fa-check"></i> Online shopping cart using AngularJS, NodeJS, MongoDB (Javascript Only)</li>
+                <li><i class="fa fa-check"></i> Online shopping cart using AngularJS, NodeJS, MongoDB (Javascript Only)
+                </li>
                 <li><i class="fa fa-check"></i> Real Time updates without page reloads</li>
                 <li><i class="fa fa-check"></i> SEO friendly routes and URLs</li>
                 <li><i class="fa fa-check"></i> Multiple product variants and attributes</li>
-                <li><i class="fa fa-check"></i> Unlimited product attributes (size, color, etc.) product variants and attributes</li>
+                <li><i class="fa fa-check"></i> Unlimited product attributes (size, color, etc.) product variants and
+                    attributes</li>
             </ul>
-        </div><!--//container-->
-    </section><!--//features-->
+        </div>
+        <!--//container-->
+    </section>
+    <!--//features-->
 
     <!-- ******DOCS****** -->
     <section id="docs" class="docs section">
         <div class="container">
             <div class="docs-inner">
-            <h2 class="title text-center">Get Started</h2>
-            <div class="block">
-                <h3 class="sub-title text-center">Quick Start</h3>
-                <ul class="feature-list list-unstyled">
-                  <li><i class="fa fa-check"></i> Download the code + unzip it</li>
-                  <li><i class="fa fa-check"></i> Download and install <a href="https://nodejs.org/en/">NodeJS</a>, <a href="https://git-scm.com/">Git</a></li>
-                  <li><i class="fa fa-check"></i> Download and run <a href="https://www.mongodb.com/">MongoDB</a></li>
-                </ul>
-                <p>Run the following commands (as sudo or Administrator)</p>
-                <div class="code-block">
-                    <pre><code class="language-markup">npm i -g bower gulp-cli</code></pre>
-                    <pre><code class="language-markup">npm i -g --production windows-build-tools (Only for Windows)</code></pre>
-                    <pre><code class="language-markup">npm i</code></pre>
-                    <pre><code class="language-markup">bower i</code></pre>
-                    <pre><code class="language-markup">gulp serve</code></pre>
+                <h2 class="title text-center">Get Started</h2>
+                <div class="block">
+                    <h3 class="sub-title text-center">Quick Start</h3>
+                    <ul class="feature-list list-unstyled">
+                        <li><i class="fa fa-check"></i> Download the code + unzip it</li>
+                        <li><i class="fa fa-check"></i> Download and install <a
+                                href="https://nodejs.org/en/">NodeJS</a>, <a href="https://git-scm.com/">Git</a></li>
+                        <li><i class="fa fa-check"></i> Download and run <a href="https://www.mongodb.com/">MongoDB</a>
+                        </li>
+                    </ul>
+                    <p>Run the following commands (as sudo or Administrator)</p>
+                    <div class="code-block">
+                        <pre><code class="language-markup">npm i -g bower gulp-cli</code></pre>
+                        <pre><code class="language-markup">npm i -g --production windows-build-tools (Only for Windows)</code></pre>
+                        <pre><code class="language-markup">npm i</code></pre>
+                        <pre><code class="language-markup">bower i</code></pre>
+                        <pre><code class="language-markup">gulp serve</code></pre>
+                    </div>
                 </div>
-            </div><!--//block-->
+                <!--//block-->
 
 
 
-            <div class="block">
-                <h3 class="sub-title text-center">Full Documentation</h3>
-                <p>We are always making improvements to the application script and all improvements are documentated which can be found at the bellow link</p>
-                <p class="text-center">
-                    <a class="btn btn-cta-primary" href="http://mshop.codenx.com/doc/pre" target="_blank">Documentation</a>
-                </p>
-            </div><!--//block-->
+                <div class="block">
+                    <h3 class="sub-title text-center">Full Documentation</h3>
+                    <p>We are always making improvements to the application script and all improvements are documentated
+                        which can be found at the bellow link</p>
+                    <p class="text-center">
+                        <a class="btn btn-cta-primary" href="http://mshop.codenx.com/doc/pre"
+                            target="_blank">Documentation</a>
+                    </p>
+                </div>
+                <!--//block-->
 
-            </div><!--//docs-inner-->
-        </div><!--//container-->
-    </section><!--//features-->
+            </div>
+            <!--//docs-inner-->
+        </div>
+        <!--//container-->
+    </section>
+    <!--//features-->
 
     <!-- ******LICENSE****** -->
     <section id="license" class="license section">
         <div class="container">
             <div class="license-inner">
-            <h2 class="title text-center">License</h2>
+                <h2 class="title text-center">License</h2>
                 <div class="info">
                     <p>
-<ol>
-  <li>The Regular License grants you, the purchaser, an ongoing, non-exclusive, worldwide license to make use of the digital work (Item) you have selected. </li>
-  <li>You are licensed to use the Item to create one single End Product for yourself or for one client (a “single application”), and the End Product can be distributed for Free.</li>
-  <li>An End Product is one of the following things, both requiring an application of skill and effort.
-  <ul>
-    <li>(a) For an Item that is a template, the End Product is a customised implementation of the Item.</li>
-    <li>(b) For other types of Item, an End Product is a work that incorporates the Item as well as other things, so that it is larger in scope and different in nature than the Item.</li>
-  </ul></li>
-</ol>
-</p>
+                        <ol>
+                            <li>The Regular License grants you, the purchaser, an ongoing, non-exclusive, worldwide
+                                license to make use of the digital work (Item) you have selected. </li>
+                            <li>You are licensed to use the Item to create one single End Product for yourself or for
+                                one client (a “single application”), and the End Product can be distributed for Free.
+                            </li>
+                            <li>An End Product is one of the following things, both requiring an application of skill
+                                and effort.
+                                <ul>
+                                    <li>(a) For an Item that is a template, the End Product is a customised
+                                        implementation of the Item.</li>
+                                    <li>(b) For other types of Item, an End Product is a work that incorporates the Item
+                                        as well as other things, so that it is larger in scope and different in nature
+                                        than the Item.</li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </p>
 
-                </div><!--//info-->
+                </div>
+                <!--//info-->
                 <div class="cta-container">
                     <div class="speech-bubble">
                         <p class="intro"></p>
                         <div class="icon-holder  text-center"><i class="fa fa-smile-o"></i></div>
-                    </div><!--//speech-bubble-->
+                    </div>
+                    <!--//speech-bubble-->
                     <div class="btn-container  text-center">
 
-                    </div><!--//btn-container-->
-                </div><!--//cta-container-->
-            </div><!--//license-inner-->
-        </div><!--//container-->
-    </section><!--//how-->
+                    </div>
+                    <!--//btn-container-->
+                </div>
+                <!--//cta-container-->
+            </div>
+            <!--//license-inner-->
+        </div>
+        <!--//container-->
+    </section>
+    <!--//how-->
 
     <!-- ******CONTACT****** -->
     <section id="contact" class="contact section has-pattern">
         <div class="container">
             <div class="contact-inner">
                 <h2 class="title  text-center">Contact</h2>
-                <p class="intro  text-center">I hope you find this script useful. <br />Feel free to get in touch if you have any questions or suggestions.</p>
+                <p class="intro  text-center">I hope you find this script useful. <br />Feel free to get in touch if you
+                    have any questions or suggestions.</p>
                 <div class="author-message">
                     <div class="profile">
                         <img class="img-responsive" src="assets/images/ipsita.jpg" alt="" />
-                    </div><!--//profile-->
+                    </div>
+                    <!--//profile-->
                     <div class="speech-bubble">
-                        <h3 class="sub-title">ipsita@codenx.com</h3>
+                        <h3 class="sub-title">swadesh@codenx.com</h3>
 
                         <div class="source">
-                            <span class="name"><a href="https://twitter.com/itswadesh" target="_blank">Ipsita Sahoo</a></span>
+                            <span class="name"><a href="https://twitter.com/itswadesh" target="_blank">Ipsita
+                                    Sahoo</a></span>
                             <br />
                             <span class="title">UX/UI Designer</span>
-                        </div><!--//source-->
-                    </div><!--//speech-bubble-->
-                </div><!--//author-message-->
+                        </div>
+                        <!--//source-->
+                    </div>
+                    <!--//speech-bubble-->
+                </div>
+                <!--//author-message-->
                 <div class="clearfix"></div>
                 <div class="info text-center">
                     <h4 class="sub-title">Get Connected</h4>
                     <ul class="social-icons list-inline">
-                        <li><a href="https://twitter.com/itswadesh" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="https://www.facebook.com/codenx2" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/itswadesh" target="_blank"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="https://www.facebook.com/codenx2" target="_blank"><i
+                                    class="fa fa-facebook"></i></a></li>
                         <li><a href="https://www.linkedin.com/in/itswadesh"><i class="fa fa-linkedin"></i></a></li>
                         <li><a href="http://instagram.com/itswadesh"><i class="fa fa-instagram"></i></a></li>
                         <li><a href="https://dribbble.com/codenx"><i class="fa fa-dribbble"></i></a></li>
                         <li class="last"><a href="mailto: admin@codenx.com"><i class="fa fa-envelope"></i></a></li>
                     </ul>
-                </div><!--//info-->
-            </div><!--//contact-inner-->
-        </div><!--//container-->
-    </section><!--//contact-->
+                </div>
+                <!--//info-->
+            </div>
+            <!--//contact-inner-->
+        </div>
+        <!--//container-->
+    </section>
+    <!--//contact-->
 
     <!-- ******FOOTER****** -->
     <footer class="footer">
         <div class="container text-center">
-            <small class="copyright">Developed with <i class="fa fa-heart"></i> by <a href="http://codenx.com" target="_blank">CodeNx</a> Team</small>
-        </div><!--//container-->
-    </footer><!--//footer-->
+            <small class="copyright">Developed with <i class="fa fa-heart"></i> by <a href="http://codenx.com"
+                    target="_blank">CodeNx</a> Team</small>
+        </div>
+        <!--//container-->
+    </footer>
+    <!--//footer-->
 
     <!-- Javascript -->
     <script type="text/javascript" src="assets/plugins/jquery-1.11.1.min.js"></script>
@@ -413,4 +522,5 @@
     <script type="text/javascript" src="assets/plugins/prism/prism.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
+
 </html>
